@@ -12,6 +12,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Listar arquivos
         run: ls -la
+      - name: Mostrar data
+        run: date
   validation:
     name: ✅ Validação
     runs-on: ubuntu-latest
